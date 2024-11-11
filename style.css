@@ -39,12 +39,18 @@
 }
 
 .vaddonz-list {
-top: 50%;
-left: 50%;
-width: 100px;
-height: 100px;
-background-color: red;
-z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 471px;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid gray;
+    color: white;
+    display: none;
+    z-index: 16;
+    cursor: url(../img/gui/cursor/1n.png?v=1727775751904), url(../img/gui/cursor/1n.cur?v=1727775751904), auto;
 }
 
 .tip-wrapper {
