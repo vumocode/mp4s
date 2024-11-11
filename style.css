@@ -7,22 +7,18 @@
     right: 146px;
     height: 29px;
     width: 83px;
-    padding: 5px;
     font-size: 14px;
     font-weight: bold;
     background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
     background-size: auto;
     background-repeat: no-repeat;
-    text-shadow: 
-        rgba(0, 0, 0, 0.75) -1px -1px 2px, 
-        rgba(0, 0, 0, 0.75) 1px -1px 2px,
-        rgba(0, 0, 0, 0.75) -1px 1px 2px, 
-        rgba(0, 0, 0, 0.75) 1px 1px 2px,
-        rgba(0, 0, 0, 0.75) -2px -2px 4px, 
-        rgba(0, 0, 0, 0.75) 2px -2px 4px,
-        rgba(0, 0, 0, 0.75) -2px 2px 4px, 
-        rgba(0, 0, 0, 0.75) 2px 2px 4px;
     z-index: 9999;
+}
+
+.vaddonz-button:hover {
+    background-image: url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png");
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 
@@ -30,6 +26,15 @@
     color: rgb(201, 201, 201);
     text-align: center;
     padding: 5px;
+    text-shadow: 
+    rgba(0, 0, 0, 0.75) -1px -1px 2px, 
+    rgba(0, 0, 0, 0.75) 1px -1px 2px,
+    rgba(0, 0, 0, 0.75) -1px 1px 2px, 
+    rgba(0, 0, 0, 0.75) 1px 1px 2px,
+    rgba(0, 0, 0, 0.75) -2px -2px 4px, 
+    rgba(0, 0, 0, 0.75) 2px -2px 4px,
+    rgba(0, 0, 0, 0.75) -2px 2px 4px, 
+    rgba(0, 0, 0, 0.75) 2px 2px 4px;
 }
 
 .tip-wrapper {
