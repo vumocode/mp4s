@@ -54,7 +54,7 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid gray;
     color: white;
-    display: block;
+    display: none;
     user-select: none;
     z-index: 16;
     cursor: url(../img/gui/cursor/1n.png?v=1727775751904), url(../img/gui/cursor/1n.cur?v=1727775751904), auto;
@@ -96,14 +96,13 @@ body{
 .vaddonName{
     font-weight: 500;
     font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 15px;
 }
 
 .vaddonDescription{
     font-size: 13px;
-    padding-left: 25px;
-    padding-bottom: 10px;
+    padding-left: 21px;
+    padding-bottom: 15px;
 }
 
 
