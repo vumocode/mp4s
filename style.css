@@ -9,14 +9,14 @@
     width: 83px;
     font-size: 14px;
     font-weight: bold;
-    background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
+    background-image: url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png");
     background-size: auto;
     background-repeat: no-repeat;
     z-index: 9999;
 }
 
 .vaddonz-button:hover {
-    background-image: url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png");
+    background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
     background-size: auto;
     background-repeat: no-repeat;
 }
