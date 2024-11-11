@@ -13,13 +13,13 @@
     background-image: url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png"), url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
     background-size: auto;
     background-repeat: no-repeat;
+    cursor: url("https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277");
     z-index: 9999;
-    transition: background-image 0.3s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 .vaddonz-button:hover {
     background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png"), url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png");
-    cursor: url("https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277");
 }
 
 
@@ -50,7 +50,7 @@
     -moz-user-select: none;
     user-select: none;
     z-index: 1000;
-    transition: display 0.3s ease-in-out;
+    transition: display 0.2s ease-in-out;
 }
 
 .tip-wrapper .content {
