@@ -50,6 +50,7 @@
     -moz-user-select: none;
     user-select: none;
     z-index: 1000;
+    transition: display 0.3s ease-in-out;
 }
 
 .tip-wrapper .content {
