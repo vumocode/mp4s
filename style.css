@@ -53,6 +53,164 @@
     cursor: url(../img/gui/cursor/1n.png?v=1727775751904), url(../img/gui/cursor/1n.cur?v=1727775751904), auto;
 }
 
+.vaddonzScrollable {
+    height: 371px;
+    overflow: hidden;
+    position: relative;
+}
+
+.vaddonzTitle {
+    display: flex;
+    width: auto;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px;
+    line-height: 30px;
+}
+
+.vaddonzCategories {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 10%;
+padding: 5px;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+}
+
+.utilityCategories {
+    display: flex;
+    padding: 10px;
+    width: 75px;
+    margin: 5px 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: url(../img/gui/cursor/5n.png?v=1727775751904) 4 0,url(../img/gui/cursor/5n.cur?v=1727775751904) 4 0,auto;
+}
+
+cosmeticCategories {
+    display: flex;
+    padding: 10px;
+    width: 75px;
+    margin: 5px 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: url(../img/gui/cursor/5n.png?v=1727775751904) 4 0,url(../img/gui/cursor/5n.cur?v=1727775751904) 4 0,auto;
+}
+
+otherCategories {
+    display: flex;
+    padding: 10px;
+    width: 75px;
+    margin: 5px 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: url(../img/gui/cursor/5n.png?v=1727775751904) 4 0,url(../img/gui/cursor/5n.cur?v=1727775751904) 4 0,auto;
+}
+
+changelogCategories {    
+    display: flex;
+    padding: 10px;
+    width: 75px;
+    margin: 5px 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: url(../img/gui/cursor/5n.png?v=1727775751904) 4 0,url(../img/gui/cursor/5n.cur?v=1727775751904) 4 0,auto;
+}
+
+.vaddon {  
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 0px 10px;
+    border-bottom: 1px solid gray;
+}
+.vaddonName {  
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.vaddonDescription { 
+    margin-top: 10px;
+    font-size: 12px;
+    padding-bottom: 15px;
+    line-height: 0;
+}
+.vaddonzChange { 
+color: red;
+}
+
+.changeDescription {
+display: flex;
+line-height: 0;
+padding: 15px 10px 15px 10px;
+border-bottom: 1px solid gray;
+}
+
+.changeTitle {
+margin-top: 1px;
+color: red;
+}
+
+.changeNew {
+margin-left: 4px;
+}
+.changeDate {
+margin-left: auto;
+}
+
+.customCheckbox {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    background-color: black;
+    cursor: url(../img/gui/cursor/5n.png?v=1727775751904) 4 0,url(../img/gui/cursor/5n.cur?v=1727775751904) 4 0,auto;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+    border: 1px solid gray;
+}
+
+.checkboxChecked {
+    background-color: red;
+    border: 1px solid gray;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    cursor: url(../img/gui/cursor/1n.png?v=1727775751904),url(../img/gui/cursor/1n.cur?v=1727775751904),auto
+}
+
+
+.scrollbar {
+    width: 8px;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: url(../img/gui/cursor/5n.png?v=1727775751904) 4 0,url(../img/gui/cursor/5n.cur?v=1727775751904) 4 0,auto;
+    border: 1px solid gray;
+}
+.thumb {
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 4px;
+        cursor: url(../img/gui/cursor/5n.png?v=1727775751904) 4 0,url(../img/gui/cursor/5n.cur?v=1727775751904) 4 0,auto;
+}
+
+.track {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        cursor: url(../img/gui/cursor/5n.png?v=1727775751904) 4 0,url(../img/gui/cursor/5n.cur?v=1727775751904) 4 0,auto;
+}
+
 .tip-wrapper {
     box-shadow: 0 0 0 0 #2b282a, 0 0 0 1px #353131, 0 0 0 2px #191311, 0 0 0 3px #2b2727, 0 0 0 4px #59595a, 0 0 0 5px #9da1a7, 0 0 0 6px #5a585b, 0 0 0 7px #2c2625;
     color: #e6d6bf;
