@@ -10,19 +10,18 @@
     padding: 5px;
     font-size: 14px;
     font-weight: bold;
-    background-image: url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png");
+    background-image: url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png"), url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
     background-size: auto;
     background-repeat: no-repeat;
     z-index: 9999;
-    transition: background-image 0.3s ease-in-out; /* Dodanie przejścia dla background-image */
+    transition: background-image 0.3s ease-in-out;
 }
 
 .vaddonz-button:hover {
-    background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
-    background-size: auto;
-    background-repeat: no-repeat;
+    background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png"), url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png");
     cursor: url("https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277");
 }
+
 
 .vaddonz-switch {
     color: rgb(201, 201, 201);
