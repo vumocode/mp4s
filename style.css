@@ -71,6 +71,11 @@ body{
 
 }
 
+.vaddonz-scrollabe{
+    overflow: hidden auto;
+    height: 400px;
+}
+
 .vaddonzACTIVECATEGORY {
     border: 1px solid red !important;
     color: red !important;
