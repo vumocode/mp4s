@@ -60,6 +60,12 @@ body {
     cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
 }
 
+.work-in-progress {
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+}
+
 /* Stylizacja tytułu */
 .vaddonz-title {
     display: flex;
