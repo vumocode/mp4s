@@ -86,6 +86,8 @@ body{
 
 .vaddonzACTIVELIST {
     display: block !important;
+    max-height: 400px;
+    overflow: auto;
 }
 
 .vaddonzINACTIVELIST {
