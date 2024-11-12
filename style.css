@@ -79,19 +79,19 @@ body{
     border-bottom: 1px solid gray;
 }
 
-#vaddonzACTIVECATEGORY {
+.vaddonzACTIVECATEGORY {
     border: 1px solid red;
 }
 
-#vaddonzACTIVELIST {
+.vaddonzACTIVELIST {
     display: block;
 }
 
-#vaddonzINACTIVELIST {
+.vaddonzINACTIVELIST {
     display: none;
 }
 
-#vaddonzINACTIVECATEGORY {
+.vaddonzINACTIVECATEGORY {
     border: 1px solid gray;
 }
 
