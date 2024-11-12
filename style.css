@@ -71,11 +71,11 @@ body{
 }
 
 .vaddonzACTIVECATEGORY {
-    border: 1px solid red;
+    border: 1px solid red !important;
 }
 
 .vaddonzACTIVELIST {
-    display: block;
+    display: block !important;
 }
 
 .vaddonzINACTIVELIST {
