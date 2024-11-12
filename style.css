@@ -182,8 +182,8 @@ body {
 
 /* Stylizacja paska przewijania */
 ::-webkit-scrollbar {
-    width: 8px;
-    height: 10px;
+    width: 8px; /* szerokość pionowego paska przewijania */
+    height: 8px; /* wysokość poziomego paska przewijania */
 }
 
 ::-webkit-scrollbar-track {
