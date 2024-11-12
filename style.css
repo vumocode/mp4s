@@ -91,6 +91,12 @@ body{
     overflow: auto;
 }
 
+@media (pointer: coarse) {
+    .vaddonz-list {
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
 .vaddonzINACTIVELIST {
     display: none;
 }
