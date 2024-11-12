@@ -70,15 +70,6 @@ body{
 
 }
 
-.vaddonz-categories {
-    display:flex;
-    justify-content: space-around;
-    font-family: 'Rubik', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid gray;
-}
-
 .vaddonzACTIVECATEGORY {
     border: 1px solid red;
 }
@@ -93,6 +84,15 @@ body{
 
 .vaddonzINACTIVECATEGORY {
     border: 1px solid gray;
+}
+
+.vaddonz-categories {
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
 }
 
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzCHANGELOG {
