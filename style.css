@@ -1,11 +1,6 @@
 /* Import czcionki */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-/* Stylizacja ogólna */
-body {
-    background-color: black;
-}
-
 /* Stylizacja przycisku */
 .vaddonz-button {
     display: flex;
