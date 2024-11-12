@@ -1,8 +1,12 @@
+/* Import czcionki */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-body{
- background-color: black
+
+/* Stylizacja ogólna */
+body {
+    background-color: black;
 }
 
+/* Stylizacja przycisku */
 .vaddonz-button {
     display: flex;
     align-items: center;
@@ -19,7 +23,7 @@ body{
     background-image: url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png"), url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
     background-size: auto;
     background-repeat: no-repeat;
-    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5 ,auto;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     z-index: 9999;
     transition: background-image 0.2s ease-in-out;
 }
@@ -28,22 +32,17 @@ body{
     background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png"), url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png");
 }
 
-
+/* Stylizacja przełącznika */
 .vaddonz-switch {
     color: rgb(201, 201, 201);
     text-align: center;
     padding: 5px;
-    text-shadow: 
-    rgba(0, 0, 0, 0.75) -1px -1px 2px, 
-    rgba(0, 0, 0, 0.75) 1px -1px 2px,
-    rgba(0, 0, 0, 0.75) -1px 1px 2px, 
-    rgba(0, 0, 0, 0.75) 1px 1px 2px,
-    rgba(0, 0, 0, 0.75) -2px -2px 4px, 
-    rgba(0, 0, 0, 0.75) 2px -2px 4px,
-    rgba(0, 0, 0, 0.75) -2px 2px 4px, 
-    rgba(0, 0, 0, 0.75) 2px 2px 4px;
+    text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 2px, rgba(0, 0, 0, 0.75) 1px -1px 2px,
+                 rgba(0, 0, 0, 0.75) -1px 1px 2px, rgba(0, 0, 0, 0.75) 1px 1px 2px,
+                 rgba(0, 0, 0, 0.75) -2px -2px 4px, rgba(0, 0, 0, 0.75) 2px -2px 4px;
 }
 
+/* Stylizacja listy */
 .vaddonz-list {
     position: fixed;
     top: 50%;
@@ -61,6 +60,7 @@ body{
     cursor: url(https://aether.margonem.pl/img/gui/cursor/1n.png?v=1730794617277), auto;
 }
 
+/* Stylizacja tytułu */
 .vaddonz-title {
     display: flex;
     justify-content: center;
@@ -68,37 +68,33 @@ body{
     padding: 15px;
     border-bottom: 1px solid gray;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/4n.png?v=1730794617277) 10 28, auto;
-
 }
 
-.vaddonz-scrollable{
+/* Stylizacja scrollowalnej sekcji */
+.vaddonz-scrollable {
     overflow: hidden auto;
     height: 400px;
 }
 
-.work-in-progress {
-    color: red;
-    margin-left: 5px;
-    font-size: 15px;
-}
-
-.vaddonzChangelogEntry{
+/* Stylizacja elementów changelogu */
+.vaddonzChangelogEntry {
     display: flex;
     align-items: center;
     border-bottom: 1px solid gray;
     padding: 10px;
 }
 
-.changelogName{
+.changelogName {
     margin-right: 3px;
     color: red;
     font-weight: 600;
 }
 
-.changelogDate{
+.changelogDate {
     margin-left: auto;
 }
 
+/* Stylizacja aktywnych i nieaktywnych kategorii */
 .vaddonzACTIVECATEGORY {
     border: 1px solid red !important;
     color: red !important;
@@ -116,14 +112,13 @@ body{
     display: block !important;
 }
 
-
 .vaddonzINACTIVELIST {
     display: none;
 }
 
-
+/* Stylizacja kategorii */
 .vaddonz-categories {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -137,9 +132,10 @@ body{
     border-radius: 5px;
     padding: 10px;
     width: 100px;
-    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5 ,auto;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
+/* Stylizacja sekcji FYI */
 .vaddonzFYI {
     display: flex;
     padding: 5px;
@@ -157,13 +153,14 @@ body{
     justify-content: center;
 }
 
+/* Stylizacja dodatków */
 .vaddon {
     font-family: 'Rubik', sans-serif;
     border-bottom: 1px solid gray;
     padding-left: 5px;
 }
 
-.vaddonName{
+.vaddonName {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -171,49 +168,38 @@ body{
     padding-top: 15px;
 }
 
-.vaddonDescription{
+.vaddonDescription {
     font-size: 11px;
     padding-left: 21px;
     padding-bottom: 15px;
 }
 
-
-
-
-
-/* Stylizacja całego paska przewijania */
+/* Stylizacja paska przewijania */
 ::-webkit-scrollbar {
-    width: 12px;             /* szerokość dla scrollbara pionowego */
-    height: 12px;            /* wysokość dla scrollbara poziomego */
+    width: 12px;
+    height: 12px;
 }
 
-/* Stylizacja tła paska przewijania */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;     /* kolor tła scrollbara */
-    border-radius: 10px;     /* zaokrąglenie krawędzi */
+    background: #f1f1f1;
+    border-radius: 10px;
 }
 
-/* Stylizacja uchwytu paska przewijania */
 ::-webkit-scrollbar-thumb {
-    background: #888;        /* kolor uchwytu */
-    border-radius: 10px;     /* zaokrąglenie krawędzi uchwytu */
+    background: #888;
+    border-radius: 10px;
 }
 
-/* Efekt przy najechaniu na uchwyt paska przewijania */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;        /* ciemniejszy kolor przy najechaniu */
+    background: #555;
 }
 
-
-
-
-
-
+/* Stylizacja dymków */
 .tip-wrapper {
     box-shadow: 0 0 0 0 #2b282a, 0 0 0 1px #353131, 0 0 0 2px #191311, 0 0 0 3px #2b2727, 0 0 0 4px #59595a, 0 0 0 5px #9da1a7, 0 0 0 6px #5a585b, 0 0 0 7px #2c2625;
     color: #e6d6bf;
     line-height: 14px;
-    max-width: 250PX;
+    max-width: 250px;
     min-width: 150px;
     position: absolute;
     text-align: center;
