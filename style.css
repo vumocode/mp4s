@@ -54,6 +54,7 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid gray;
     color: white;
+    font-family: 'Rubik', sans-serif;
     display: none;
     user-select: none;
     z-index: 16;
@@ -63,7 +64,6 @@ body{
 .vaddonz-title {
     display: flex;
     justify-content: center;
-    font-family: 'Rubik', sans-serif;
     font-size: 25px;
     padding: 15px;
     border-bottom: 1px solid gray;
@@ -89,6 +89,15 @@ body{
     padding: 10px;
 }
 
+.changelogName{
+    margin-right: 3px;
+    color: red;
+    font-weight: 600;
+}
+
+.changelogDate{
+    margin-left: auto;
+}
 
 .vaddonzACTIVECATEGORY {
     border: 1px solid red !important;
@@ -116,7 +125,6 @@ body{
 .vaddonz-categories {
     display:flex;
     justify-content: space-around;
-    font-family: 'Rubik', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid gray;
