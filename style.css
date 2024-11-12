@@ -82,6 +82,13 @@ body{
     font-size: 15px;
 }
 
+.vaddonzChangelogEntry{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
 
 .vaddonzACTIVECATEGORY {
     border: 1px solid red !important;
