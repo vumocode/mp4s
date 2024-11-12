@@ -79,6 +79,22 @@ body{
     border-bottom: 1px solid gray;
 }
 
+#vaddonzACTIVECATEGORY {
+    border: 1px solid red;
+}
+
+#vaddonzACTIVELIST {
+    display: block;
+}
+
+#vaddonzINACTIVELIST {
+    display: none;
+}
+
+#vaddonzINACTIVECATEGORY {
+    border: 1px solid gray;
+}
+
 #vaddonzUTILITY, #vaddonzCOSMETIC, #vaddonzOTHER, #vaddonzCHANGELOG {
     display: flex;
     justify-content: center;
