@@ -72,6 +72,9 @@ body{
 
 .vaddonzACTIVECATEGORY {
     border: 1px solid red !important;
+    color: red !important;
+    font-weight: 700 !important;
+    transition: all 0.1s ease-in;
 }
 
 .vaddonzACTIVELIST {
