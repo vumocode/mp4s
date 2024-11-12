@@ -87,6 +87,7 @@ body{
 .vaddonzACTIVELIST {
     display: block !important;
     max-height: 400px;
+    -webkit-overflow-scrolling: touch; /* Używane do płynnego przewijania */
     overflow: auto;
 }
 
