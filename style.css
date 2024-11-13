@@ -11,8 +11,8 @@
     right: 146px;
     height: 29px;
     width: 83px;
-    padding: 5px;
-    font-family: 'Rubik', sans-serif;
+    padding: 5px ;
+    font-family: 'Rubik', sans-serif !important;
     font-size: 14px;
     font-weight: 500;
     background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png"), url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png");
@@ -48,7 +48,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid gray;
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif !important;
     display: none;
     user-select: none;
     z-index: 16;
@@ -196,11 +196,11 @@
 .vaddonName label::before {
     content: '';
     display: inline-block;
-    width: 17px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
     border-radius: 4px;
     background-color: #ffffff00;
-    border: 1px solid #545454;
+    border: 2px solid #515151;
     transition: background-color 0.3s;
     margin-right: -6px;
 }
@@ -208,6 +208,7 @@
 /* Styl zaznaczenia */
 .vaddon-checkbox:checked + label::before {
     background-color: #ff0000;
+    border: 2px solid #ff0000;
 }
 
 
