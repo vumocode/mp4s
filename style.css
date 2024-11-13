@@ -194,12 +194,12 @@
 
 /* Stylujemy niestandardowy checkbox przed nazwą */
 .vaddonName label::before {
+    content: '';
     display: inline-block;
     width: 17px;
     height: 17px;
     border-radius: 4px;
-    background-color: #ffffff00;
-    border: 1px solid #545454;
+    background-color: white;
     transition: background-color 0.3s;
     margin-right: -6px;
 }
