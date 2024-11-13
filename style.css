@@ -157,16 +157,16 @@
     justify-content: center;
 }
 
+
+
+
+
+
 /* Stylizacja dodatków */
 .vaddon {
     font-family: 'Rubik', sans-serif;
     border-bottom: 1px solid gray;
     padding-left: 5px;
-}
-
-/* Ukrywamy standardowy checkbox */
-.vaddon-checkbox {
-    display: none;
 }
 
 /* Stylujemy kontener checkboxa */
@@ -178,24 +178,43 @@
     padding-top: 15px;
 }
 
-/* Tworzymy niestandardowy checkbox */
-.vaddon-checkbox + span::before {
+.vaddonDescription {
+    font-size: 11px;
+    padding-left: 21px;
+    padding-bottom: 15px;
+}
+
+
+/* Ukrywamy standardowy checkbox */
+.vaddon-checkbox {
+    display: none;
+}
+
+/* Tworzymy niestandardowy checkbox w elemencie label */
+.vaddonName label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* Stylujemy niestandardowy checkbox przed nazwą */
+.vaddonName label::before {
     content: '';
     display: inline-block;
     width: 20px;
     height: 20px;
     border: 2px solid #007bff;
-    border-radius: 4px; /* zaokrąglenie krawędzi */
-    margin-right: 10px;
+    border-radius: 4px;
     background-color: white;
     transition: background-color 0.3s;
-    cursor: pointer;
+    margin-right: 10px;
 }
 
-/* Zmiana wyglądu przy zaznaczeniu */
-.vaddon-checkbox:checked + span::before {
+/* Styl zaznaczenia */
+.vaddon-checkbox:checked + label::before {
     background-color: #007bff;
-    content: '✔';  /* Wstawienie ikony zaznaczenia (można użyć np. FontAwesome) */
+    content: '✔'; /* Znak zaznaczenia */
     color: white;
     font-size: 16px;
     display: flex;
@@ -204,11 +223,14 @@
 }
 
 
-.vaddonDescription {
-    font-size: 11px;
-    padding-left: 21px;
-    padding-bottom: 15px;
-}
+
+
+
+
+
+
+
+
 
 /* Stylizacja paska przewijania */
 ::-webkit-scrollbar {
