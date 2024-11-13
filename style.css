@@ -31,7 +31,7 @@
 .vaddonz-switch {
     color: rgb(201, 201, 201);
     text-align: center;
-    padding: 5px;
+    line-height: 0px;
     text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 2px, rgba(0, 0, 0, 0.75) 1px -1px 2px,
                  rgba(0, 0, 0, 0.75) -1px 1px 2px, rgba(0, 0, 0, 0.75) 1px 1px 2px,
                  rgba(0, 0, 0, 0.75) -2px -2px 4px, rgba(0, 0, 0, 0.75) 2px -2px 4px;
