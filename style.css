@@ -202,21 +202,17 @@
 .vaddonName label::before {
     content: '';
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #007bff;
+    width: 17px;
+    height: 17px;
     border-radius: 4px;
     background-color: white;
     transition: background-color 0.3s;
-    margin-right: 10px;
+    margin-right: -6px;
 }
 
 /* Styl zaznaczenia */
 .vaddon-checkbox:checked + label::before {
-    background-color: #007bff;
-    content: '✔'; /* Znak zaznaczenia */
-    color: white;
-    font-size: 16px;
+    background-color: #ff0000;
     display: flex;
     align-items: center;
     justify-content: center;
