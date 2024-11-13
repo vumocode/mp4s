@@ -91,7 +91,7 @@
     margin-left: auto;
 }
 
-.vaddonzUtilityList, .vaddonzCosmeticList, .vaddonzOtherList, .vaddonzChangelogList{
+#vaddonzUtilityList, #vaddonzCosmeticList, #vaddonzOtherList, #vaddonzChangelogList{
     overflow-y: hidden;
     height: 0px;
 }
@@ -113,6 +113,7 @@
 .vaddonzACTIVELIST {
     display: block !important;
     height: 400px;
+    transition: all 0.3s ease-in;
 }
 
 .vaddonzINACTIVELIST {
