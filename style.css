@@ -91,6 +91,11 @@
     margin-left: auto;
 }
 
+.vaddonzUtilityList, .vaddonzCosmeticList, .vaddonzOtherList, .vaddonzChangelogList{
+    overflow-y: hidden;
+    height: 0px;
+}
+
 /* Stylizacja aktywnych i nieaktywnych kategorii */
 .vaddonzACTIVECATEGORY {
     border: 1px solid red !important;
@@ -107,6 +112,7 @@
 
 .vaddonzACTIVELIST {
     display: block !important;
+    height: 400px;
 }
 
 .vaddonzINACTIVELIST {
