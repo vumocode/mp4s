@@ -195,7 +195,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    cursor: pointer;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
 /* Stylujemy niestandardowy checkbox przed nazwą */
@@ -213,9 +213,6 @@
 /* Styl zaznaczenia */
 .vaddon-checkbox:checked + label::before {
     background-color: #ff0000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
