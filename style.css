@@ -112,8 +112,6 @@
 
 .vaddonzACTIVELIST {
     display: block !important;
-    height: 400px;
-    transition: all 0.3s ease-in;
 }
 
 .vaddonzINACTIVELIST {
