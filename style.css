@@ -178,7 +178,7 @@
     border-top: 1px solid gray;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
-    color: #ff0000;
+    color: var(--vaddonz-accent);
     user-select: none;
     align-items: center;
     justify-content: center;
@@ -241,8 +241,8 @@
 
 /* Styl zaznaczenia */
 .vaddon-checkbox:checked + label::before {
-    background-color: #ff0000;
-    border: 2px solid #ff0000;
+    background-color: var(--vaddonz-accent);
+    border: 2px solid var(--vaddonz-accent);
 }
 
 
