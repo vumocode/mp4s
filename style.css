@@ -253,6 +253,11 @@
     flex-direction: column-reverse;
 }
 
+#vaddonzDockSwitch{
+    height: 30px;
+    width: 30px;
+}
+
 /* Tworzymy niestandardowy checkbox w elemencie label */
 .vaddonName label {
     display: flex;
