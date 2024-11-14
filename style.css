@@ -132,6 +132,17 @@
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
+.vaddonzSettingsEntry{
+    border: 1px solid purple;
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+
 /* Stylizacja sekcji FYI */
 .vaddonz-fyi {
     display: flex;
