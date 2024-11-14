@@ -19,19 +19,16 @@
     font-family: 'Rubik', sans-serif !important;
     font-size: 14px;
     font-weight: 500;
+    background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png"), url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png");
+    background-size: auto;
+    background-repeat: no-repeat;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     z-index: 9999;
-    background-color: gray;
+    transition: background-image 0.2s ease-in-out;
 }
 
-.vaddonz-button:hover{
-    background-color: var(--vaddonz-accent) !important;
-    background-blend-mode: multiply !important;
-}
-
-.vaddonz-button.active {
-    background-color: var(--vaddonz-accent) !important;
-    background-blend-mode: multiply !important;    
+.vaddonz-button:hover {
+    background-image: url("https://i.postimg.cc/65GKv6Bs/jezuskudwa.png"), url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
 }
 
 /* Stylizacja przełącznika */
