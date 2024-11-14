@@ -56,7 +56,7 @@
 }
 
 .work-in-progress {
-    color: red;
+    color: var(--vaddonz-accent);
     font-size: 12px;
     font-weight: 600;
     margin-left: 5px;
@@ -83,7 +83,7 @@
 
 .changelogName {
     margin-right: 3px;
-    color: red;
+    color: var(--vaddonz-accent);
     font-weight: 600;
 }
 
@@ -93,8 +93,8 @@
 
 /* Stylizacja aktywnych i nieaktywnych kategorii */
 .vaddonzACTIVECATEGORY {
-    border: 1px solid red !important;
-    color: red !important;
+    border: 1px solid var(--vaddonz-accent) !important;
+    color: var(--vaddonz-accent) !important;
     font-size: 15px !important;
     font-weight: 500 !important;
     transition: all 0.1s ease-in;
