@@ -202,7 +202,24 @@
     height: 35px;
 }
 
+.header-title{
+    display: flex;
+}
 
+#stats-title{
+    width: 65%;
+}
+
+#vaddonzPortableSwitch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--vaddonz-accent);
+    margin-left: 2px;
+    margin-top: 1px;
+}
 
 /* Stylizacja dodatków */
 .vaddon {
