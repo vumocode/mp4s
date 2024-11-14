@@ -246,7 +246,7 @@
 #vaddonz-dock{
     width: 30px;
     height: fit-content;
-    border: 1px solid #fbff00;
+    border: 1px solid var(--vaddonz-accent);
     display: flex;
     justify-content: center;
     align-items: center;
