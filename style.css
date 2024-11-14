@@ -249,6 +249,13 @@
     display: none;
 }
 
+#vaddon-dock{
+    right: 0px;
+    bottom: 0px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
 /* Tworzymy niestandardowy checkbox w elemencie label */
 .vaddonName label {
     display: flex;
