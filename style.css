@@ -21,10 +21,16 @@
     font-weight: 500;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     z-index: 9999;
-    transition: background-image 0.2s ease-in-out;
 }
 
-.vaddonz-button:hover {
+.vaddonz-button:hover{
+    background-color: var(--vaddonz-accent) !important;
+    background-blend-mode: multiply !important;
+}
+
+.vaddonz-button.active {
+    background-color: var(--vaddonz-accent) !important;
+    background-blend-mode: multiply !important;    
 }
 
 /* Stylizacja przełącznika */
