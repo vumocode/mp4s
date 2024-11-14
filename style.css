@@ -184,8 +184,10 @@
     justify-content: center;
 }
 
-
-
+#addonzAccentColor{
+    background: none;
+    width: 100px;
+}
 
 
 
