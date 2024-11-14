@@ -26,6 +26,7 @@
     background-repeat: no-repeat;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     z-index: 9999;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .vaddonz-button:hover {
