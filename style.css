@@ -21,6 +21,7 @@
     font-weight: 500;
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
     z-index: 9999;
+    background-color: gray;
 }
 
 .vaddonz-button:hover{
