@@ -281,7 +281,7 @@
 #vaddonzDockSwitch:hover {
     background-color: var(--vaddonz-accent);
     transition: background-color 0.2s ease-in-out;
-    background-blend-mode: hard-lightt;
+    background-blend-mode: hard-light;
 }
 
 /* Tworzymy niestandardowy checkbox w elemencie label */
