@@ -33,14 +33,13 @@
     background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
     background-color: var(--vaddonz-accent);
     transition: background-color 0.2s ease-in-out;
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
 }
 
 .vaddonz-button.active{
     background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
     background-color: var(--vaddonz-accent);
     transition: background-color 0.2s ease-in-out;
-    background-blend-mode: multiply;
 }
 
 /* Stylizacja przełącznika */
@@ -281,7 +280,7 @@
 #vaddonzDockSwitch:hover {
     background-color: var(--vaddonz-accent);
     transition: background-color 0.2s ease-in-out;
-    background-blend-mode: screen;
+    background-blend-mode: overlay;
 }
 
 /* Tworzymy niestandardowy checkbox w elemencie label */
