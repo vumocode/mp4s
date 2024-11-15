@@ -275,6 +275,7 @@
     pointer-events: initial;
     justify-content: center;
     align-items: center;
+    cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
 }
 
 /* Tworzymy niestandardowy checkbox w elemencie label */
