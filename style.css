@@ -33,7 +33,7 @@
     background-image: url("https://i.postimg.cc/kgc1tnm7/jezusku.png");
     background-color: var(--vaddonz-accent);
     transition: background-color 0.2s ease-in-out;
-    background-blend-mode: overlay;
+    background-blend-mode: soft-light;
 }
 
 .vaddonz-button.active{
@@ -280,7 +280,7 @@
 #vaddonzDockSwitch:hover {
     background-color: var(--vaddonz-accent);
     transition: background-color 0.2s ease-in-out;
-    background-blend-mode: overlay;
+    background-blend-mode: soft-light;
 }
 
 /* Tworzymy niestandardowy checkbox w elemencie label */
