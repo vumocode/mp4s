@@ -245,7 +245,9 @@
 
 #vaddonz-dock{
     width: 30px;
-    height: 30px;
+    height: fit-content;
+    min-height: 30px;
+    margin-bottom: 30px;
     background-color: #e1084e;
     border-radius: 10px 0px 0px 00px;
     border: 1px solid #464646;
@@ -257,7 +259,9 @@
 }
 
 #vaddonzDockSwitch{
+    position: absolute;
     width: 30px;
+    height: 30px;
     background-color: #000000;
     border: 1px solid #464646;
     display: flex;
