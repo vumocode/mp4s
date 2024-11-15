@@ -21,13 +21,13 @@
     font-weight: 500;
     background-image: url(https://i.postimg.cc/kgc1tnm7/jezusku.png);
     cursor: url(https://aether.margonem.pl/img/gui/cursor/5n.png?v=1730794617277) 5 -5, auto;
+    transition: all 0.5s ease-in-out;
     z-index: 9999;
 }
 
 .vaddonz-button:hover {
     background-color: var(--vaddonz-accent); /* Kolor po najechaniu */
     background-blend-mode: hard-light;
-    transition: all 0.5s ease-in-out;
 }
 
 .vaddonz-button.active{
