@@ -27,7 +27,7 @@
 .vaddonz-button:hover {
     background-color: var(--vaddonz-accent); /* Kolor po najechaniu */
     background-blend-mode: hard-light;
-    transition: background-color 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .vaddonz-button.active{
