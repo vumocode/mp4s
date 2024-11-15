@@ -34,6 +34,7 @@
     background-color: var(--vaddonz-accent);
     transition: background-color 0.2s ease-in-out;
     background-blend-mode: soft-light;
+    opacity: 0.8;  /* Dodanie lekko przezroczystego efektu */
 }
 
 .vaddonz-button.active{
@@ -281,6 +282,7 @@
     background-color: var(--vaddonz-accent);
     transition: background-color 0.2s ease-in-out;
     background-blend-mode: soft-light;
+    opacity: 0.8;  /* Dodanie lekko przezroczystego efektu */
 }
 
 /* Tworzymy niestandardowy checkbox w elemencie label */
