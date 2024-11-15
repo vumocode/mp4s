@@ -257,11 +257,14 @@
 }
 
 #vaddonzDockSwitch{
-    display: flex;
-    height: 30px;
     width: 30px;
-    align-items: center;
+    background-color: #000000;
+    border: 1px solid #464646;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    pointer-events: initial;
     font-size: 20px;
 }
 
